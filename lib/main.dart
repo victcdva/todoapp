@@ -75,6 +75,18 @@ class _MyHomePageState extends State<MyHomePage> {
                             ),
                             Container()
                           ])),
+                  Container(
+                    height: 80,
+                    width: 80,
+                    margin: EdgeInsets.only(
+                        top: 120,
+                        left: MediaQuery.of(context).size.width * 0.5 - 40),
+                    child: FloatingActionButton(
+                      child: const Icon(Icons.add, size: 70),
+                      backgroundColor: redColor,
+                      onPressed: () {},
+                    ),
+                  )
                 ]),
                 appBar: AppBar(
                     elevation: 0,
